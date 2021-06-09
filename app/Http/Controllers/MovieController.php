@@ -18,7 +18,7 @@ class MovieController extends Controller
         
     //OTTENERE FILMS DAL DATABASE
         $movies = Movie::all();
-        dump($movies);
+        // dump($movies);
 
     return view('movie', compact('movies'));
 }

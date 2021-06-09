@@ -52,5 +52,27 @@ h1 {
   overflow-y: auto;
   border-radius: 10px;
   background-color: rgba(17, 15, 15, 0.293);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards .card {
+  flex-basis: calc(100% / 5 - 20px);
+  height: 220px;
+  margin: 10px;
+  background-color: #bb810d;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cards .card h3 {
+  margin: 5px 0;
+}
+
+.cards .card h3 span.blue {
+  color: rgba(0, 85, 255, 0.938);
 }
 
