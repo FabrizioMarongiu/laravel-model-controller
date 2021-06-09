@@ -1,0 +1,22 @@
+main{
+    flex-grow: 1;
+    background-color: rgb(132, 84, 176);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    display: flex;
+    align-items : center;
+    flex-direction: column;
+}
+
+h1{
+    margin: 20px;
+}
+
+.cards{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    border-radius: 10px;
+    background-color: rgba(17, 15, 15, 0.293);
+}
